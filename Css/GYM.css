@@ -1,0 +1,570 @@
+/*Start the main rules*/
+.container{
+    margin: auto;
+    width: 1170px;
+}
+body{
+    margin:0;
+    padding: 0;  
+}
+/*End the main rules*/
+
+ /*Start Header*/
+.header{
+height: 780px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.header .bar{
+    position: fixed;
+    float: left;
+    background-color: rgba(250,250,250); 
+    overflow: hidden;
+    width: 100%;
+    z-index: 3;
+}
+
+.header .bar p{
+    text-transform: uppercase;
+    font-weight:700;
+    font-family:sans-serif;
+    font-size: 25px;
+    float: left;
+    margin: 0 auto;
+    padding:20px 350px 12px 35px;
+   }
+
+.header .bar p span{color:#fc3a00}
+
+.header .bar ul {
+    list-style: none;
+    overflow:hidden;
+    float: left;
+}
+
+.header .bar ul button,
+.header .bar ul li{
+    float: left;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 0 auto;
+    padding:10px;
+    color: #a0a0a0;
+}
+
+.header .bar ul button,
+.header .bar ul li:hover{cursor: pointer}
+
+.header .bar ul button{
+    padding:10px;
+    margin-left: 10px;
+    color: white;
+    background-color: #fc3a00;
+    border: 0.5px solid #fc3a00;
+}
+
+.header .bar ul button:hover{background-color: rgb(255, 90, 41);}
+
+.header .bar ul li.active{color:#fc3a00}
+
+.header .bar ul li a{
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.header .bar ul li a:hover{color: #fc3a00;}
+
+.header .title .container{
+         position: relative;
+    padding-left: 333px;
+}
+
+.header .title p{
+    margin: 0 auto;
+    float: left;
+    padding-top: 450px;
+    padding-left: 280px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-family:sans-serif;
+    color:white;
+    font-size: 20px;
+     position: absolute
+}
+
+.header .title h1{
+    text-align: center;
+    padding-top: 490px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 80px;
+    font-family:sans-serif;
+    color:white;
+    position: absolute
+}
+
+.header .title h1 span{color:#fc3a00;}
+
+.header .title button{
+    position: center;
+    padding:10px 10px;
+    background-color: #fc3a00;
+    border: 1px solid #fc3a00;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:600px 350px;
+    position:absolute;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+    -webkit-background-size: cover; /*css3*/
+    -o-background-size: cover; /*css3*/
+    -moz-background-size: cover; /*css3*/
+    background-size: cover; /*css3*/
+}
+ /*End Header*/
+
+/*Start Program*/
+.program .title h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+.program .title h2 span{color: #fc3a00}
+
+.program .title img{
+    padding-left: 550px
+}
+
+.program .title p{
+    text-align: center;
+line-height: 30px;
+    color: #a0a0a0;
+}
+
+.program .list{
+    padding-top: 30px;
+    padding-bottom: 550px;
+}
+
+.program .list .icon{
+    float: left;
+    width:50%;
+}
+
+.program .list .icon img  {
+    float: left;
+    width: 100px;
+    padding-right: 20px
+}
+
+.program .list .icon h3{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top:0px;
+    margin-top:0;
+}
+
+.program .list .icon p{
+    font-weight: 300;
+    padding-right: 35px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #a0a0a0;
+    
+}
+
+.program .list .icon p span{
+    color:#fc3a00;
+    padding-left: 120px;
+}
+
+/*End Program*/
+
+/*Start Qoute*/
+.qoute{
+    background-image: url(../Images/cta-bg.jpg);
+        padding-bottom: 90px;
+}
+
+.qoute h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 40px;
+    color:white;
+}
+
+.qoute h2 span{color: #fc3a00;}
+
+.qoute p{
+    text-align: center;
+    color:white;
+    width:50%;
+    padding-left: 290px;
+}
+
+.qoute button{
+    float: left;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    background-color: #fc3a00;
+    border: 0.5px solid #fc3a00;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 20px
+}
+
+.qoute button:hover{
+    background-color: rgb(255, 90, 41);
+}
+/*End Qoute*/
+
+/*ٍStart class*/
+.class .title h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+.class .title h2 span{color: #fc3a00}
+
+.class .title img{
+    padding-left: 570px
+}
+
+.class .title p{
+    text-align: center;
+line-height: 30px;
+    padding-bottom: 60px;
+        color: #a0a0a0;
+}
+
+.class .boxes ul{
+    float: left;
+    list-style: none;
+    padding-right:50px;
+        
+}
+
+.class .boxes ul li{
+    width: 350px;
+    height: auto;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+        box-shadow: 4px 4px 13px 7px #e0cfcf;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+} 
+
+.class .boxes ul li:hover{
+    background-color: #f7f2f0;
+}
+
+.class .boxes ul li img{
+    width: 35px;
+    margin:10px 10px 0 10px;
+}
+
+.class .boxes .active{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #fc3a00;
+    box-shadow: 4px 4px 13px 7px #e0cfcf;
+    border: 0.5px solid #fc3a00;
+    width: 350px;
+    height: 60px;
+    margin-left: 0;
+    border-radius: 20px
+}
+
+.class .boxes .active:hover{
+background-color: rgba(252, 58, 0, 0.72)
+}
+
+.class .boxes h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.class .boxes p{
+    color: #a0a0a0;
+}
+
+.class .boxes button{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #fc3a00;
+    box-shadow: 4px 4px 13px 7px #e0cfcf;
+    border: 0.5px solid #fc3a00;
+    width: 120px;
+    height: 50px;
+    margin-left: 0;
+    border-radius: 20px
+}
+/*End class*/
+
+/*Start schedule*/
+
+.schedule{
+    background-image: url(../Images/schedule-bg.jpg);
+    height: 900px;
+}
+
+.schedule h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 130px;
+}
+
+.schedule h2 span{color: #fc3a00}
+
+.schedule img{
+    padding-left: 570px
+}
+
+.schedule p{
+    text-align: center;
+line-height: 30px;
+    padding-bottom: 60px;
+        color: #ffffff;
+}
+
+.schedule .clear{clear: both;}
+
+.schedule ul{
+    list-style: none;
+    color: white;
+    padding-bottom: 25px;
+    padding-left: 350px;
+}
+
+.schedule ul li{
+    float: left;
+    text-transform: capitalize;
+}
+
+.schedule ul li:hover{color:#fa3c00;cursor: pointer}
+
+.schedule ul li.active{color:#fa3c00}
+
+.schedule ul li span{
+    padding:0px 20px 0 20px;
+    color: white;
+}
+
+.schedule table{
+    color: white;
+    padding-left: 200px;
+}
+
+.schedule  table td,
+.schedule  table th{
+    padding: 35px;
+    border: 1px solid white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+/*End schedule*/
+
+/*Start Trainers*/
+.trainers .text h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    padding-top: 130px;
+}
+
+.trainers .text h2 span{color: #fc3a00}
+
+.trainers .text img{
+    padding-left: 570px
+}
+
+.trainers .text p{
+    text-align: center;
+line-height: 30px;
+    padding-bottom: 60px;
+        color: #a0a0a0;
+    margin:0 250px;
+}
+
+.trainers .career{
+    display: inline-block;
+    padding-left: 350px;
+    margin-right: 150px;
+}
+
+ .trainers .career div{
+    float:left;
+    margin-left: 40px;
+    width: 378px;
+    box-shadow: 5px 5px  5px 5px #CCC; 
+}
+
+.trainers .career div img{
+    padding:35px; 
+}
+
+.trainers .career div h5{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fa3c00;
+    padding-left:12px;
+}
+
+.trainers .career div h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left:12px;
+}
+
+.trainers .career div p{
+    color: #a0a0a0;
+    padding-left:12px;
+    margin-right:40px;
+}
+
+.trainers .career div ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+.trainers .career div ul li{
+    float: left;
+    padding-left: 12px;
+}
+
+.trainers .career div ul li:hover{
+    color:#fa3c00;
+    cursor: pointer;
+}
+/*End Trainers*/
+
+/*Start Contact Me*/
+
+.contact{
+    background-image: url(../Images/slide-01.jpg); 
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 220px;
+    margin-top: 200px;
+}
+
+.contact .info{
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.contact h2{
+    color:white;
+margin-left: 40px;
+    
+}
+
+.contact h2 span{
+    color: #fc3a00
+}
+
+.contact .info p strong{
+    color: #fc3a00;
+}
+
+.contact p{
+    color: #ffffff;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+
+.contact p strong{
+    color: white;
+}
+
+.contact .form{
+    float: left;
+    width: 45%;
+    padding-top: 60px;
+}
+
+.contact .form label{
+    display: block;
+    color: #f2d53c;
+    margin: 10px 0 10px 0;
+}
+
+.contact .form input[type="text"]{
+    color:#137cd6; 
+    background-color: #ffffff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .form textarea{
+    color:#137cd6; 
+    background-color: #ffffff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]{
+    padding: 10px 20px;
+    color:white;
+    border:3px solid #fc3a00;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color:#fc3a00;
+    font-weight:700;
+}
+
+/*End Contact Me*/
